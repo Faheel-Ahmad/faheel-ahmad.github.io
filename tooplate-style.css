@@ -1,44 +1,12 @@
+/*
+Template 2084 Zipper
 
+http://www.tooplate.com/view/2084-zipper
+*/
 body {
   margin:0 auto;
 }
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,300);
-.backgrounda {
-  height: 720px;
-	background: url(8.jpg) no-repeat center fixed;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-	background-size: cover;
-	background-color: #1c120c;
-	background-attachment:fixed;
-	position:relative;
-	overflow:hidden;
- }
-.backgroundb {
-  height: 720px;
-	background: url(faheelbhai.jpg) no-repeat center fixed;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-	background-size: cover;
-	background-color: #1c120c;
-	background-attachment:fixed;
-	position:relative;
-	overflow:hidden;
- }
-.backgroundc {
-  height: 720px;
-	background: url(JOQ3V1l.jpg) no-repeat center fixed;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-	background-size: cover;
-	background-color: #1c120c;
-	background-attachment:fixed;
-	position:relative;
-	overflow:hidden;
- }
+
 h1 {
   margin-top:110px;
   text-align:center;
@@ -76,9 +44,9 @@ a:focus {
 }
 
 .tm-section-home { background-image: url(../img/image-01.jpg); }
-.tm-section-about { background-image: url(../img/image-02.jpg); }
-.tm-section-services { background-image: url(../img/image-03.jpg); }
-.tm-section-testimonials { background-image: url(../img/image-04.jpg); }
+.tm-section-about { background-image: url(8.jpg); }
+.tm-section-services { background-image: url(faheelbhai.jpg); }
+.tm-section-testimonials { background-image: url(JOQ3V1l.jpg); }
 .tm-section-contact { background-image: url(../img/image-05.jpg); }
 
 .navbar-toggler {
@@ -198,7 +166,7 @@ p { font-size: 1.5rem; }
 }
 
 .tm-content-box-right {
-	margin-left: auto;
+	margin-left: 50px;
 	margin-right: 0;
 }
 
@@ -220,19 +188,23 @@ p { font-size: 1.5rem; }
             justify-content: center;
 }
 
-.tm-textbox-padding { padding: 50px; }
+.tm-textbox-padding { padding: 50px; margin: auto;}
+   }
 .tm-text-black { color: black; }
 .tm-fa { 
 	color: white;
 	padding-bottom: 40px;
     text-align: center;
     width: 100%;
+    
 }
 .tm-margin-b-0 { margin-bottom: 0; }
 
 .tm-section-testimonials { 
 	padding-top: 80px; 
 	padding-bottom: 80px;
+	text-align: center; margin: auto;
+   padding: 10px;
 }
 
 .form-control {
