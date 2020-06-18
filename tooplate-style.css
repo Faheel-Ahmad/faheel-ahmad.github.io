@@ -28,6 +28,20 @@ a:focus {
 	padding-right: 0;
 	overflow-x: hidden;
 }
+a:link, a:visited {
+  background-color:white;
+  color: Black;
+  border: 2px solid grey;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: sans-serif;
+  
+}
+a:hover, a:active {
+  background-color: #aaa9ad ;
+	color: white;}
 
 .tm-section {
 	position:realtive;
