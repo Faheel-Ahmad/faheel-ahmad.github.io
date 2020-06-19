@@ -38,8 +38,8 @@ a:hover, a:active {
     min-height: 640px;
 }
 
-.tm-section-home { background-image: url(267829.jpg); }
-.tm-section-services { background-image: url(JOQ3V1l.jpg); }
+.tm-section-about { background-image: url(267829.jpg); }
+.tm-section-services { background-image: url(bg.jpg); }
 
 .navbar-toggler {
     background-color: rgba(0,0,0,0.3);
